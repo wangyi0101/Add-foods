@@ -1,0 +1,41 @@
+/* app css stylesheet */
+.app-container {
+  width: 30%;
+  margin: 0 auto; }
+  .app-container p {
+    font-size: 14px;
+    color: #555555; }
+  .app-container .selected-element {
+    float: left;
+    font-weight: bold; }
+  .app-container .desc-icon {
+    float: right; }
+  .app-container hr {
+    clear: both; }
+  .app-container .hide-list {
+    padding: 3px 10px; }
+    .app-container .hide-list a {
+      display: block; }
+  .app-container .input-form {
+    padding-top: 1.25rem; }
+    .app-container .input-form .text-input {
+      margin-bottom: 1.25rem; }
+      .app-container .input-form .text-input input {
+        outline: none;
+        border: none; }
+      .app-container .input-form .text-input hr {
+        margin: 0; }
+      .app-container .input-form .text-input .text-count {
+        float: right;
+        font-size: 12px;
+        color: #555555;
+        padding: 1px 0; }
+    .app-container .input-form .submit {
+      padding: 8px 15px;
+      background-color: #5260a3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px; }
+
+/*# sourceMappingURL=app.css.map */

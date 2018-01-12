@@ -1,0 +1,24 @@
+<div class="app-container">
+    <p>Favorite food</p>
+    <div>
+        <div ng-click="clickHandler()">
+            <div class="selected-element">{{selectedFood}}</div>
+            <div class="desc-icon"><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+            <hr>
+        </div>
+        <div ng-hide="hideFoodsList" class="ng-hide hide-list" ng-repeat="food in foods">
+            <a ng-click="changeHandler(food)">{{food}}</a>
+        </div>
+    </div>
+    <div class="input-form">
+        <form ng-click="updateFood()">
+            <div ng-hide="hideFoodInput" class="ng-hide text-input">
+                <input type="text" ng-model="newFood" placeholder="Enter some input"
+                       max=100 ng-trim="false" aria-label="food" aria-describedby="enter-food">
+                <hr>
+                <span class="text-count">{{newFood.length}}/100</span>
+            </div>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+</div>
