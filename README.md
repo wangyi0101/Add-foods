@@ -9,6 +9,6 @@ Please follow the following commands to run this application:
 
 To execute unit-tests, please run
 
-* npm tests
+* npm test
 
 This coding assessment is created by using angular-seed
